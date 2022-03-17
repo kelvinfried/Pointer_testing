@@ -39,6 +39,9 @@ int main()
 	int* theInt_pointer_0= &theInt;
 	int* theInt_pointer_1= &theInt;
 	
+	//Adding 5 to theInt via the first pointer
+	(*theInt_pointer_0)+= 5;
+	(*theInt_pointer_1)+= 3;
 	
-	
+	std::cout<<"The final value should be 8, and it is... " <<theInt <<std::endl;
 }
