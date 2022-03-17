@@ -70,5 +70,5 @@ int main()
 	
 	std::cout<<"The address of instanitated player object is " <<basic_player_address <<std::endl;*/
 	
-
+//Step 5
 }
