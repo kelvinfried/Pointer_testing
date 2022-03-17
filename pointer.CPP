@@ -35,5 +35,13 @@ int main()
 	std::cout<<"theFloat has a memaddr of " <<*theFloat_Pointer <<std::endl;	//find value which is being pointed to*/
 	
 //Step 3
-	 int theInt= 0;
+	int theInt= 0;
+	int* theInt_pointer_0= &theInt;
+	int* theInt_pointer_1= &theInt;
+	
+	//Adding 5 to theInt via the first pointer
+	(*theInt_pointer_0)+= 5;
+	(*theInt_pointer_1)+= 3;
+	
+	std::cout<<"The final value should be 8, and it is... " <<theInt <<std::endl;
 }
