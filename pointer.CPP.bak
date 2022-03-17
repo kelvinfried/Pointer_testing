@@ -27,6 +27,7 @@ int main()
 	std::cout<<"theFloat has a value of " <<theFloat <<std::endl;
 	std::cout<< "theFloat has a memaddr of " <<&theFloat <<std::endl;
 	
+	//Define pointer
 	float* theFloat_Pointer= &theFloat;	//Decalre and define pointer
 	std::cout<<"theFloat_pointer has a value of " <<*theFloat_Pointer <<std::endl;	//Deref pointer
 	//change the value 
