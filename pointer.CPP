@@ -33,5 +33,5 @@ int main()
 	//change the value 
 	(*theFloat_Pointer )+= 4.0f;
 	std::cout<<"theFloat has a memaddr of " <<*theFloat_Pointer <<std::endl;	//find value which is being pointed to
-	
+	 
 }
