@@ -1,0 +1,17 @@
+#include <iosteam>
+
+int main()
+{
+//Step 1
+	std::cout"Hello world" <<std::endl;	//Raises error no "<<" for the cout command. //Syntax Error
+	//Correct would be 
+	std::cout<< "Hello world" <<std::endl;
+	
+	for(int i= 5; i>=0; i-- )
+	{
+		std::cout<< "10 divided by " <<i <<" is " <<(10/i) <<std::endl;
+		//Code is syntaxically correct, but runs into a logic error once it reaches the final iteration.
+			//This is because it will attempt to divide by 0, which is a mathmatical impossibility.
+			//Code is also called a runtime error
+	}
+}
