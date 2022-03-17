@@ -22,7 +22,7 @@ int main()
 			//Actually chaning the value for this to be the case.
 	}*/
 //Step 2
-	float  theFloat= 1.0f;
+	/*float  theFloat= 1.0f;
 	
 	std::cout<<"theFloat has a value of " <<theFloat <<std::endl;
 	std::cout<< "theFloat has a memaddr of " <<&theFloat <<std::endl;
@@ -32,6 +32,8 @@ int main()
 	std::cout<<"theFloat_pointer has a value of " <<*theFloat_Pointer <<std::endl;	//Deref pointer
 	//change the value 
 	(*theFloat_Pointer )+= 4.0f;
-	std::cout<<"theFloat has a memaddr of " <<*theFloat_Pointer <<std::endl;	//find value which is being pointed to
+	std::cout<<"theFloat has a memaddr of " <<*theFloat_Pointer <<std::endl;	//find value which is being pointed to*/
 	
+//Step 3
+	 
 }
