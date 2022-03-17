@@ -1,4 +1,4 @@
-#include <iosteam>
+#include <iostream>
 
 int main()
 {
@@ -21,7 +21,10 @@ int main()
 			//It does not stop since the condition in the for loop is not being made invalid, and the iterative element is not 
 			//Actually chaning the value for this to be the case.
 	}*/
-	
-	
 //Step 2
+	float  theFloat= 1.0f;
+	
+	std::cout<< "theFloat has a value of " <<theFloat <<std::endl;
+	std::cout<< "theFloat has a memaddr of " <<&theFloat <<std::endl;
+	
 }
