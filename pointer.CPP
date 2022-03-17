@@ -1,5 +1,23 @@
 #include <iostream>
 
+//Step 4 prep
+//Class
+Player
+{
+	public:
+		std::string name;
+		int health;
+		float range;
+		
+		Player()
+		{
+			name= "Player";
+			health= 10;
+			range= 1.0f;
+		}
+		
+};
+
 int main()
 {
 //Step 1
@@ -46,21 +64,5 @@ int main()
 	std::cout<<"The final value should be 8, and it is... " <<theInt <<std::endl;*/
 	
 //step 4
-	//Step 4 prep
-	//Class
-	Player
-	{
-		public:
-			std::string name;
-			int health;
-			float range;
-			
-			Player()
-			{
-				name= "Player";
-				health= 10;
-				range= 1.0f;
-			}
-			
-	};
+
 }
