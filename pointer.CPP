@@ -2,7 +2,7 @@
 
 //Step 4 prep
 //Class
-Player
+class Player
 {
 	public:
 		std::string name;
@@ -64,5 +64,7 @@ int main()
 	std::cout<<"The final value should be 8, and it is... " <<theInt <<std::endl;*/
 	
 //step 4
-
+	//Creat object and get its mem addr
+	Player basic_player;
+	Player* basic_player_address= &basic_player;
 }
