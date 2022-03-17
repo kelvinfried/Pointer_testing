@@ -67,4 +67,6 @@ int main()
 	//Creat object and get its mem addr
 	Player basic_player;
 	Player* basic_player_address= &basic_player;
+	
+	std::cout<<"The address of instanitated player object is " <<basic_player_address <<std::endl;
 }
