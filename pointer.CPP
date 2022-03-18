@@ -18,6 +18,12 @@ class Player
 		
 };
 
+void addOne(int* n )
+{
+	*n+= 1;
+	std::cout<<"The value of n is now " <<*n <<std::endl;
+}
+
 int main()
 {
 //Step 1
@@ -82,4 +88,13 @@ int main()
 	std::cout<<"The players new name is " <<basic_player.name <<std::endl;*/
 	
 //Step 6
+	//Learn how to pass by pointer.	//Same effect as passing by referance.
+	int number=5;
+	int* pointer_to_number= &number;
+	
+	std::cout<<"before the function the value of the number is " <<number <<std::endl <<std::endl;
+	
+	addOne(pointer_to_number );
+	
+	return 0;
 }
