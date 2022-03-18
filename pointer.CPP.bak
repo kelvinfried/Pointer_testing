@@ -63,12 +63,21 @@ int main()
 	
 	std::cout<<"The final value should be 8, and it is... " <<theInt <<std::endl;*/
 	
-/*//step 4
+//Step 4
 	//Creat object and get its mem addr
 	Player basic_player;
 	Player* basic_player_address= &basic_player;
 	
-	std::cout<<"The address of instanitated player object is " <<basic_player_address <<std::endl;*/
+	//std::cout<<"The address of instanitated player object is " <<basic_player_address <<std::endl;
 	
-
+//Step 5	Uses code from step 4
+	//Invalid dereferance example, dereferances the attribute from the class.
+	//*basic_player_address.name= "trial name";	//Riases error as it will try to dereferances the attribute
+	std::cout<<"The players new name is " <<basic_player.name <<std::endl;
+	
+	//Alternatives
+	(*basic_player_address).name= "trial name";
+	std::cout<<"The players new name is " <<basic_player.name <<std::endl;
+	basic_player_address-> name= "trial name";
+	std::cout<<"The players new name is " <<basic_player.name <<std::endl;
 }
