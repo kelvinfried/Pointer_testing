@@ -63,7 +63,7 @@ int main()
 	
 	std::cout<<"The final value should be 8, and it is... " <<theInt <<std::endl;*/
 	
-//Step 4
+/*//Step 4
 	//Creat object and get its mem addr
 	Player basic_player;
 	Player* basic_player_address= &basic_player;
@@ -79,5 +79,5 @@ int main()
 	(*basic_player_address).name= "trial name";
 	std::cout<<"The players new name is " <<basic_player.name <<std::endl;
 	basic_player_address-> name= "trial name 1";
-	std::cout<<"The players new name is " <<basic_player.name <<std::endl;
+	std::cout<<"The players new name is " <<basic_player.name <<std::endl;*/
 }

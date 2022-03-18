@@ -80,4 +80,6 @@ int main()
 	std::cout<<"The players new name is " <<basic_player.name <<std::endl;
 	basic_player_address-> name= "trial name 1";
 	std::cout<<"The players new name is " <<basic_player.name <<std::endl;*/
+	
+//Step 6
 }
